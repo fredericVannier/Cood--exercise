@@ -1,0 +1,19 @@
+[
+  {
+    "name": "mathilde Céliamouth",
+    "type": "collection",
+    "users": ["Mélissa Thomas", "Victor Guillot", "Lisa Blanchard"]
+  },
+  {
+    "name": "west Zoe",
+    "type": "class",
+    "users": ["Noémie Noel", "Maxime Perrin IV", "Rayan Deschamps Sr.", "Louis Meyer", "Baptiste Da silva"]
+  },
+  { "name": "valentinchester", "type": "collection", "users": ["Louna Garcia"] },
+  { "name": "Noah saint-Honoré", "type": "class", "users": ["Charlotte Martinez DDS", "Théo Michel", "Léa Sanchez"] },
+  {
+    "name": "Mathilde Saint-Bernard",
+    "type": "collection",
+    "users": ["Arthur Roger", "Dr Elisa Breton", "Adrien Lemaire"]
+  }
+]

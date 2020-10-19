@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Cood</title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+
+    <!-- LOGO AND SPITCH -->
+    <div class="headerContainer">
+        <img src="./logo-cood.png" alt="logo">
+        <h5>Plateforme d'éducation au numérique</h5>
+    </div>
+
+
+    <!-- SEARCH BAR -->
+    <div class="row searchBar">
+        <div class="col">
+            <div class="card card-body">
+
+                <input id="search-input" class="form-control" type="text">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- TABLE -->
+    <table class="table table-striped table-hover">
+        <thead class="thead-cood">
+            <tr>
+                <th data-colname="name" data-order="desc">Name</th>
+                <th data-colname="age" data-order="desc">Type</th>
+                <th data-colname="birthdate" data-order="desc">Users</th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+
+        </tbody>
+    </table>
+
+    <!-- FILTERS AND BUTTONS -->
+    <div class="topContainer">
+        <form name="filtersForm" class="filter-form">
+            <select name="filtersList">
+                <option value="">All</option>
+                <option value="Type: Collection">Collection</option>
+                <option value="Type: Class">Class</option>
+            </select>
+        </form>
+
+        <button class="delete-btn btn btn-primary">Delete</button>
+    </div>
+
+
+    <!-- JAVASCRIPT FILE -->
+    <script src="/app.js"></script>
+</body>
+
+</html>

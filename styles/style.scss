@@ -1,0 +1,62 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  color:$secondaryColor;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  h5{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;
+  margin: 30px 30px;
+
+  .btn {
+    margin-left: 30px;
+    padding: 10px 25px;
+    background-color:$secondaryColor;
+    border-color:$secondaryColor;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: $primaryColor;
+      border-color: $primaryColor;
+    }
+  }
+}
+
+.searchBar {
+  margin-bottom: 30px;
+}
+
+.thead-cood {
+  background-color: $primaryColor;
+  text-transform: uppercase;
+}
+
+#myTable {
+  .name-col{
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+}
+
